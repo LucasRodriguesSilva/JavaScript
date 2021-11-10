@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<script>
+
+	function alerta(frase) {
+		alert(frase)
+	}
+	function mostrar(frase) {
+		document.write(frase)
+	}
+
+    var nomeUm = prompt("Qual é o seu nome")
+    var idadeUm = prompt("Qual a sua idade " + nomeUm)
+    var nomeDois = prompt("Qual o nome do seu irmão ou irmã?")
+    var idadeDois = prompt("Qual a idade do(a) " + nomeDois + "?")
+    var resultado = (idadeUm - idadeDois)
+
+    alerta("Nossa diferença de idade é " + (idadeUm - idadeDois))
+    mostrar("Nossa diferença de idade é " + (idadeUm - idadeDois))
+
+
+</script>
